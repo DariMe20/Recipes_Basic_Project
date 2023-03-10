@@ -12,12 +12,12 @@ ul{
     list-style: none;
     justify-content: center;
     flex-wrap: wrap;
-    padding:40px 0 0 0;
+    padding:20px 0 0 0;
     
 }
 
 li{
-    width: 45%;
+    width: calc(48% - 50px);
     align-items: center;
     text-align: center;
     justify-content: space-around;
@@ -39,8 +39,8 @@ li a:hover{
 li:hover{
     background-color: bisque;
 }
-li img {
+li a img {
     width: 70%;
-    height: 70%;
-    padding: 15px 90px 0px 90px;
+    height:80%;
+    padding: 15px 90px 10px 60px;
 }

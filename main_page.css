@@ -59,3 +59,25 @@ li a img {
     height: 80%;
     padding: 15px 90px 10px 60px;
 }
+
+@media screen and (max-width: 750px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .recipe-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .container ul {
+        flex-direction: column;
+    }
+    
+    li a img {
+        width: 70%;
+        height: 100%;
+        padding: 15px 90px 40px 60px;
+    }
+    
+}
